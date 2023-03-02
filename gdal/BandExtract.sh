@@ -32,6 +32,7 @@ gdalbuildvrt -b 21 -input_file_list /Volumes/Bitcasa2/Forestbirds/Lidar/Purg/lis
 gdalbuildvrt -b 22 -input_file_list /Volumes/Bitcasa2/Forestbirds/Lidar/Purg/list.txt /Volumes/Bitcasa2/Forestbirds/Lidar/Purg/MaxTime_10m.vrt
 gdalbuildvrt -b 23 -input_file_list /Volumes/Bitcasa2/Forestbirds/Lidar/Purg/list.txt /Volumes/Bitcasa2/Forestbirds/Lidar/Purg/MinTime_10m.vrt
 gdalbuildvrt -b 24 -input_file_list /Volumes/Bitcasa2/Forestbirds/Lidar/Purg/list.txt /Volumes/Bitcasa2/Forestbirds/Lidar/Purg/DiffTime_10m.vrt
+gdalbuildvrt -b 24 -input_file_list /Volumes/Bitcasa2/Forestbirds/Lidar/Purg/list.txt /Volumes/Bitcasa2/Forestbirds/Lidar/Purg/DiffTime_10m.vrt
 
 
 # Making TIFs from VRTs

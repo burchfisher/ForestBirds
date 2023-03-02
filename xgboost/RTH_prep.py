@@ -62,7 +62,7 @@ metrics = [row.split('.')[0] for row in files]
 colnms = colnms + metrics
 
 # Import dataset
-dataset = rasterio.open('/Volumes/Bitcasa2/Forestbirds/Lidar/PA_RTH/RTH.tif')
+dataset = rasterio.open('/Volumes/Bitcasa2/Forestbirds/Lidar/PA_RTH/RTH_all.tif')
 
 # Read the data in
 data = dataset.read(1)
